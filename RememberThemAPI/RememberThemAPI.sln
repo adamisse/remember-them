@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "RememberThemAPI\Api.csproj", "{E9E7D309-FBF2-4781-B814-04F2BE32A36B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0A587813-0221-42B3-8D3D-F78EBDD6A429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9E7D309-FBF2-4781-B814-04F2BE32A36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E7D309-FBF2-4781-B814-04F2BE32A36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E7D309-FBF2-4781-B814-04F2BE32A36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E7D309-FBF2-4781-B814-04F2BE32A36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A587813-0221-42B3-8D3D-F78EBDD6A429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A587813-0221-42B3-8D3D-F78EBDD6A429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A587813-0221-42B3-8D3D-F78EBDD6A429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A587813-0221-42B3-8D3D-F78EBDD6A429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A08D81C-4F4C-4E3A-AA77-F57C8F93511A}
+	EndGlobalSection
+EndGlobal
