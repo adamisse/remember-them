@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\Domain\\Domain.csproj": {}
+    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\PremierSoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

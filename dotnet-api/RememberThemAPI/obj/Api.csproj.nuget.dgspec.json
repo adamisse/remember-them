@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\RememberThemAPI\\Api.csproj": {}
+    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\RememberThemAPI\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\RememberThemAPI\\Api.csproj": {
+    "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\RememberThemAPI\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\RememberThemAPI\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\RememberThemAPI\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\RememberThemAPI\\Api.csproj",
+        "projectPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\RememberThemAPI\\Api.csproj",
         "packagesPath": "C:\\Users\\PremierSoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\RememberThemAPI\\obj\\",
+        "outputPath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\RememberThemAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

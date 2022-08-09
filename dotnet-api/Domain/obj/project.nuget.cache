@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qru6ZEA8t9Z3YkShuj6pi1D9xR+L4Ms8wZP28lLGD48p0fUXKCSOciZ32iLCT+kpUv75rfS60xvK3slZTmhwvw==",
+  "dgSpecHash": "AIxkO+L4wmmvyuW+4oHLtnMqcG2xXnj+LC2WtQ/9q0IAfvZsoJRvs4VyPsJEfRpIjl3bqlE96qa6ef1/p/jYbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\RememberThemAPI\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\PremierSoft\\Desktop\\Remember Them\\dotnet-api\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
