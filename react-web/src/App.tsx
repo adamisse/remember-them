@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import axios from 'axios';
 
-function App() {
+const baseURL = "https://localhost:7223/api/reminders";
+
+interface IPost {
+  title: string;
+  body: string;
+}
+
+const App = () =>  {
+  const [reminders, setReminders] = React.useState<any>(null);
+
+  React.useEffect(() => {
+    axios.get(baseURL)
+    .then(res => {
+      console.log(res.data);
+      const reminders = res.data?.map((obj: { description: any; expiresAt: any; createdAt: any; }) => (
+          {
+            description: obj.description, 
+            expiresAt: obj.expiresAt,
+            createdAt: obj.createdAt
+          }
+        )
+      );
+      setReminders(reminders);
+    });
+  }, []);
+
+  if (!reminders) return null;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {reminders.map((r: { createdAt: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; description: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; expiresAt: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; }) => 
+      <div>
+        {r.createdAt} - <strong>{r.description}</strong> - {r.expiresAt}
+      </div>)}
+
     </div>
   );
 }
