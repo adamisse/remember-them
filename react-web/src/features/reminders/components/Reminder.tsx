@@ -1,5 +1,15 @@
-export const Reminder = async () => {
+interface ReminderProps{
+    description: string;
+    createdAt: string;
+    expiresAt: string;
+}
+
+export const Reminder = (props: ReminderProps) => {
     return (
-        <h1>a</h1>
+        <div>
+            <h1>{props.description}</h1>
+            <span>{props.expiresAt}|</span>
+            <span>{props.createdAt}</span>
+        </div>
     )
 }

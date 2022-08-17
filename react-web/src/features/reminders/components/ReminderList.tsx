@@ -1,5 +1,6 @@
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getReminders } from "../api";
+import { Reminder } from "./Reminder";
 
 export type ReminderDTO = {
     description: string;
@@ -29,7 +30,12 @@ export const ReminderList = () => {
             <h1>sexo</h1>
             {/* XUNXO ALERT!: Utilizando Data como key... */}
             {reminders.map(reminder => 
-                <div key={reminder.createdAt.toString()}> {reminder.description} - </div>
+                <Reminder 
+                    description={reminder.description}
+                    //TODO: Verificar o problema ao tentar renderizar o objeto Date...
+                    createdAt={reminder.createdAt.toString()} 
+                    expiresAt={reminder.expiresAt.toString()}
+                />
             )}
         </div>
     );
